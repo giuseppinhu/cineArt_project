@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineArt</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="https://fbi.cults3d.com/uploaders/20952150/illustration-file/3ff506ac-83d8-40ab-b474-3ebc2c727b7a/pngwing.com-2022-02-20T081900.534.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header id="header-nav" class="border-bottom border-warning border-5 sticky-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                    <a href="#" class="navbar-brand">
+                        <img class="w-100" src="image/svg/CINEART.png" alt="SVG Image" width="50" height="50"> 
+                    </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-center" id="menu">
+                    <ul class="nav navbar-nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#cartaz-id">Em Cartaz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#new-movies">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-id">Serviços</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="text-end">
+                    <button type="button" class="btn btn-warning">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div>
+   </header> 
+        <!-- CAROUSEL SLIDER -->
+  
+        <div id="carrosel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- ITEM 1 -->
+                <div>
+                    <div data-bs-interval="100000000000" class="carousel-item active">
+                        <div class="carousel-image-wrapper">
+                            <img class="w-100" src="image/CAROUSEL/Giu_Silvio.png">
+                        </div>
+                                <div class="overlay"></div>
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1>SILVIO</h1>
+                                <p class="opacity-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="container justify-content-between d-inline-flex p-0">
+                                    <img class="rounded" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/DJCTQ_-_L.svg/354px-DJCTQ_-_L.svg.png" style="color: transparent;">
+                                    <p class="end-0">
+                                        <button class="button-carousel btn btn-warning d-flex align-items-center" href="#">
+                                            COMPRAR INGRESSO <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>
+                                        </button>
+                                    </p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- ITEM 2 -->
+                    <div data-bs-interval="100000000000" class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img class="w-100" src="image/CAROUSEL/Transformers_Giu.png" >
+                        </div> 
+                            <div class="overlay"></div>
+                            <div class="container">
+                                <div class="carousel-caption text-start">
+                                    <h1>TRANFORMERS: O INÍCIO</h1>
+                                    <p class="opacity-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    <div class="container justify-content-between d-inline-flex p-0">
+                                        <img class="rounded" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DJCTQ_-_10.svg/400px-DJCTQ_-_10.svg.png" style="color: transparent;">
+                                        <p class="button-carousel btn btn-warning d-flex align-items-center" href="#">
+                                            COMPRAR INGRESSO <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>
+                                        </p>
+                                    </div>
+                                </div> 
+                            </div>
+                    </div>  
+                        <!-- ITEM 3 -->
+                    <div data-bs-interval="100000000000" class="carousel-item">
+                        <div class="carousel-image-wrapper">
+                            <img class="w-100" src="image/CAROUSEL/Joker_Giu.png">
+                        </div> 
+                            <div class="overlay"></div>
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                            <h1>CORINGA: DELÍRIO A DOIS</h1>
+                            <p class="opacity-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="container justify-content-between d-inline-flex p-0">
+                                    <img class="rounded" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/DJCTQ_-_16.svg/400px-DJCTQ_-_16.svg.png" style="color: transparent;">
+                                    <p class="button-carousel btn btn-warning d-flex align-items-center" href="#">
+                                        COMPRAR INGRESSO <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>
+                                    </p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>  
+                        <!-- INDICATORS -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true" class="active"></button>
+                        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carrosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>  
+                        <!-- PREV AND NEXT -->
+                    <button data-bs-target="#carrosel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carrosel" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+            </div>
+            <div class="programation mt-1">
+                <div class="container-programation container d-sm-flex overflow-hidden">
+                    <!-- ITEM DAYS PROGRAMATION -->
+                    <div class="days container w-100 me-2 rounded p-4 mb-1">
+                        <p><h6>Hoje, 00 Out, 00h00</h6></p>
+                        <p class="icon-link icon-link-hover">DUBLADO    2D
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                        </p>
+                    </div>
+                    <!-- ITEM DAYS PROGRAMATION -->
+                    <div class="days container w-100 me-2 rounded p-4 mb-1">
+                        <p><h6>Hoje, 00 Out, 00h00</h6></p>
+                        <p class="icon-link icon-link-hover">DUBLADO    3D
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                        </p>
+                    </div>
+
+                    <!-- ITEM DAYS PROGRAMATION -->
+                    <div class="days container w-100 me-2 rounded p-4 mb-1">
+                        <p><h6>Amanhã, 00 Out, 00h00</h6></p>
+                        <p class="icon-link icon-link-hover">DUBLADO    3D
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                        </p>
+                    </div>
+
+                    <!-- ITEM DAYS PROGRAMATION -->
+                    <div class="days container w-100 me-2 rounded p-4 mb-1">
+                        <p><h6>Amanhã, 00 Out, 00h00</h6></p>
+                        <p class="icon-link icon-link-hover">DUBLADO    2D
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                        </p>
+                    </div>
+
+                    <!-- ITEM DAYS PROGRAMATION -->
+                    <div class="days plus-div container w-100 rounded p-4 mb-1">
+                        <p><h6>Ver Mais Horários</h6></p>
+                        <p class="plus-icon w-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>  
+          
+        <!-- CONTENT WEBSITE -->
+    <div class="section-body" data-bs-spy="scroll" data-bs-target="#header-nav">
+       <section id="cartaz-id" class="cartaz container">
+            <div class="container">
+                <h2>EM CARTAZ</h2>
+                <hr></hr>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2 w-80" src="https://br.web.img3.acsta.net/img/af/78/af7834b75967104fac114c752d415239.jpg"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">ASSISTA JÁ</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">SILVIO</h5>
+                                <span class="card-text d-flex justify-content-between">Drama • 1h50m
+                                    <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/DJCTQ_-_L.svg/354px-DJCTQ_-_L.svg.png" style="color: transparent;">
+                                </span>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2" src="./image/POSTER/TRANSFORMER-POSTER.jfif"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">ASSISTA JÁ</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">TRANSFORMERS: O ÍNICIO</h5>
+                                <span class="card-text d-flex justify-content-between">Animação • 1h45m
+                                    <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DJCTQ_-_10.svg/400px-DJCTQ_-_10.svg.png" style="color: transparent;">
+                                </span>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2" src="./image/POSTER/CORINGA-POSTER.jpg"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">ASSISTA JÁ</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">CORINGA: DELÍRIO A DOIS</h5>
+                                <div class="text-card">
+                                    <span class="card-text d-flex justify-content-between">Drama • 2h15m 
+                                        <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/DJCTQ_-_16.svg/400px-DJCTQ_-_16.svg.png" style="color: transparent;">
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2" src="./image/POSTER/SORRIA-POSTER.jpeg"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">PRÉ-VENDA</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">SORRIA 2</h5>
+                                <div class="text-card">
+                                    <span class="card-text d-flex justify-content-between">Terror • 2h05m 
+                                        <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Classind_A14.svg/512px-Classind_A14.svg.png" style="color: transparent;">
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2" src="./image/POSTER/VENOM-POSTER.jpeg"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">PRÉ-VENDA</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">VENOM: A ÚLTIMA RODADA</h5>
+                                <div class="text-card">
+                                    <span class="card-text d-flex justify-content-between">Ação • 1h50m 
+                                        <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Classind_A14.svg/512px-Classind_A14.svg.png" style="color: transparent;">
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card border-0">
+                            <img class="rounded-5 p-2" src="./image/POSTER/ANIME-POSTER.jpeg"/>
+                            <a href="#" class="btn btn-dark position-absolute rounded-3 border-0">ASSISTA JÁ</a>
+                            <div class="card-body rounded-4 p-4">
+                                <h5 class="card-body">MY HERO ACADEMY: AGORA É SUA VEZ</h5>
+                                <div class="text-card">
+                                    <span class="card-text d-flex justify-content-between">Anime • 1h50m 
+                                        <img class="rounded p-1" alt="10" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/DJCTQ_-_12.svg/400px-DJCTQ_-_12.svg.png" style="color: transparent;">
+                                    </span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- SECTION PROMOTION -->
+       <section id="new-movies" class="new-movies-class position-relative ">
+            <div class="container">
+                <h2>Promoções</h2>
+                <hr></hr>
+                <div class="row">
+                    <div class="col p-0">
+                        <div class="card col-4 p-0 w-100 border-0">
+                            <img class="rounded-4" src="./image/RANDOM/promotion.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <div class="card col-4 p-0 w-100 border-0">
+                            <img class="rounded-4" src="./image/RANDOM/promotion.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <div class="card col-4 p-0 w-100 border-0">
+                            <img class="rounded-4" src="./image/RANDOM/promotion.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+       </section>
+
+        <!-- SECTION SERVICES -->
+       <section id="about-id" class="about container">
+            <h2>Todos os serviços</h2>
+            <hr></hr>
+            <div class="about-container container">
+                <img class="w-100 border-0 rounded shadow" src="https://uploads.maisgoias.com.br/2023/05/1a39fafd-cinema.jpg" alt="">
+            </div>
+       </section>
+    </div>
+
+        <!-- FOOTER WEBSITE -->
+        <section class="footer position-relative p-1">
+            <!-- FOOTER SOCIAL-MIDIA -->
+            <div class="follow-us container d-flex justify-content-between p-0 my-3">
+                <div>
+                    <a href="#" class="logo-footer d-flex align-items-center position-relative">
+                        <img class="w-100 p-2" src="image/svg/CINEART.png" alt="SVG Image" width="40" height="50"> 
+                    </a>
+                </div>
+                <div>
+                    <ul class="d-inline-flex m-0 h-100 p-0">
+                        <p class="m-0 me-2 fw-bold">SIGA-NOS</p>
+                        <li class="p-1">
+                            <div class="social-icon rounded">
+                                <a class="" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f9f9f9f9"  d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="p-1">
+                            <div class="social-icon rounded">
+                                <a class="" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f9f9f9f9" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="p-1"> 
+                            <div class="social-icon rounded">
+                                <a class="" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f9f9f9f9" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="p-1">
+                            <div class="social-icon rounded">
+                                <a class="" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f9f9f9f9" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- FOOTER INFORMATION -->
+            <div class="footer-info container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h6>CARTAZ</h6>
+                        <ul class="">
+                            <li class="mb-6">
+                                <a href="#">Coringa: Delírio a Dois</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Sorria 2</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Venom: A Última Rodada</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Silvio</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Transformers: O Ínicio</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">My Hero Academy: Agora é Sua Vez</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h6>PROMOÇÕES</h6>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#">Segunda à Sexta</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Fim de Semanas</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Especiais</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h6>CINEMAS</h6>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - GO</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - MG</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - MS</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - RJ</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - RS</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Cinemas - SP</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Todos os Cinemas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h6>CONTATO</h6>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#">Central de atendimento</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- nothing '--' -->
+                <hr class="w-100"></hr>
+
+                <!-- CREDITS DEVELOPER <3-->
+                <p class="cont-img fs-6 d-flex justify-content-between">
+                    Desenvolvido por Giuseppe ❤️ - &copy Todos Direitos Reservados
+                    <span class="img-ebac d-flex justify-content-end">
+                        <img alt="logo" src="https://ebac.art.br/local/templates/brazil/i/brazil_logo_white_port.png">
+                    </span>
+                </p>
+            </div>
+        </section>
+    
+    <div class="position-fixed bottom-0 end-0 mb-3 me-3">
+        <button class="popcorn-icon d-flex align-items-center rounded-circle border-0 p-1 shadow">
+            <a href="#"><img src="./image/svg/mobile (1).png" alt=""></a>
+        </button>
+    </div>
+
+    <!-- <div class="message">
+        <p>Tire sua dúvida!</p>
+    </div> -->
+   <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
